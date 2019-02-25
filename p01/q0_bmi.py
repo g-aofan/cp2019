@@ -1,8 +1,8 @@
 #get input
-weight= int(input("Enter weight(kg):"))
-height= float(input("Enter height(m):"))
+weight = int(input("Enter weight(kg):"))
+height = float(input("Enter height(m):"))
 #compute bmi
-bmi= weight/(height*height)
+bmi = weight/(height*height)
 #output result
 print("bmi={0:.2f}".format(bmi))
 if bmi<18.5:
