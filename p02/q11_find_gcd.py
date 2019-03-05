@@ -12,6 +12,3 @@ while True:
         break
     d -= 1
     
-#alternative solution
-#from math import gcd
-#print(gcd(30,4))
